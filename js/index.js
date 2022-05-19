@@ -167,9 +167,7 @@ const users = [{
 			}
 			
 			row.onclick = function() {
-				if(row.classList.contains('row')){
-					row.classList.remove('row');
-				}else{row.classList.add('row');}
+				row.classList.toggle('row');
 			}
 		}
 	}
